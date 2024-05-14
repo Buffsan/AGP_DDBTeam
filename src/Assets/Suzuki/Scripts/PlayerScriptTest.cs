@@ -57,4 +57,5 @@ public class PlayerScriptTest : MonoBehaviour
         rb.AddForce(new Vector3(moveVector.x , 0f, moveVector.y) * speed, ForceMode.Impulse);
         rb.velocity = Vector3.ClampMagnitude(rb.velocity, moveVector.magnitude * speed);// 移動速度の制限
     }
+    // テスト
 }
